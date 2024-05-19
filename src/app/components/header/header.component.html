@@ -1,0 +1,22 @@
+<p>
+  <mat-toolbar>
+    <span> Maids</span>
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+      "
+    >
+      <input
+        type="text"
+        [(ngModel)]="searchTerm"
+        (input)="onSearchChange()"
+        placeholder="Search by User ID"
+        style="padding: 10px"
+      />
+    </div>
+    <!-- </mat-form-field> -->
+  </mat-toolbar>
+</p>

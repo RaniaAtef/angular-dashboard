@@ -1,0 +1,21 @@
+/* user-list.component.css */
+
+table {
+  width: 50%;
+}
+
+.avatar-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-number {
+  margin: 0 10px;
+}
